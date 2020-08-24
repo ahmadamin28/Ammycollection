@@ -9,16 +9,16 @@
 
 body{
     background-image: url(./back.jpg);
-
+margin: 0%;
 }
 h1{
-    color: ivory;
+    color: black;
 }
 label{
-    color: ivory;
+    color: black;
 }
 p{
-    color: ivory;
+    color: black;
 }
 
 .button{
@@ -44,12 +44,117 @@ p{
 	position:relative;
 	top:1px;
 }
+.form{
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding: 4rem;
+  background-image: url(./blur.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+    width: 100%;
+}
+.footer{
+    background-color: #446084;
+    padding: 20px 0 5px;
+    margin-top: 5%;
+    margin-right: -10%;
+    text-align: center;
+    color: cornsilk;
+}
+.header {
+    background-color: #446084;
+    margin-top: 0%;
+    margin-left: 0px;
+    margin-right: 0%;
+    padding: 20px;
+    vertical-align: middle;
+}
+
+div.top {
+    display: inline;
+}
+
+a:hover {
+    color: white;
+}
+
+.center {
+	text-align: center;
+}
+
+.logo {
+	display: inline;
+	text-decoration: none;
+	text-align: left;
+    font-size: 30px;
+    position: relative;
+    color: rgb(133, 196, 207);
+	margin-top: 0px;
+	letter-spacing: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.logo-container {
+    display: inline;
+    vertical-align: middle;
+   
+}
+
+.navbar {
+    list-style: none;
+    float: right;
+    display: inline;
+}
+
+.navbar li {
+    display: inline;
+    padding: 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar li a:hover {
+    color: rgb(53, 98, 109);
+}
+.form{
+    text-align: center;
+}
 
     </style>
 </head>
 <body>
-    
-<a class="button" href="shopping.html" class="myButton">Menu</a>
+    <div class="header">
+
+        <div class="top">
+            <div class="logo-container">
+                <a href="./shopping.html" class="logo">AMMY </a>
+                <img src="./shopping-cart.png" alt="logo" width="30px" height="30px">
+            </div>
+
+            <input type="text" placeholder="Search" />
+            <ul class="navbar">
+                <li><a href="shopping.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li> <a href="login.html">Login</a></li>
+                <li> <a href="reg.html">Registeration</a></li>
+
+                <!-- <li> <a href="product.html">Product</a> </li>        -->
+                <li>
+                    <select name="products" id="cars" onchange="location = this.value;">
+                        <option>Products</option>
+                        <option value="garments.html">Garments</option>
+                        <option value="sports.html">Sports</option>
+                        <option value="electronic.html">Electronic</option>
+                    </select>
+                </li>
+            </ul>
+        </div>
+
+<form class="form"> 
      <h1>Register</h1> 
      <p>Please fill in this form to create an acount</p><br>
 
@@ -79,5 +184,11 @@ p{
       <input type="number" name="postal code"><br> 
       <button type="submit">Sign Up</button>
 
+</form>
+<div class="footer">
+    <a class="link" href="shopping.html">About</a> | <a class="link" href="">Privacy
+        Policy</a> | <a class="link" href="contact.html">Contact Us</a></p>
+
+    </div>
     </body>
 </html>

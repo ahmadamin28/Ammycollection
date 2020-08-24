@@ -37,3 +37,76 @@ h2{
 	height: 200px;
 	margin: 20px;
 }
+figcaption{
+	font-weight: bold;
+	font-size: 22px;
+    font-weight: bold;
+    font-size: 22px;
+}
+.ab {
+    color: maroon;
+    text-decoration: underline;
+    font-weight: bold;
+    margin: 0px;
+}
+figure{
+	background-image: url(./blur.jpg);
+}
+
+.header {
+    background-color: #446084;
+    margin-top: 0%;
+    margin-left: 0px;
+    margin-right: 0%;
+    padding: 20px;
+    vertical-align: middle;
+}
+
+div.top {
+    display: inline;
+}
+
+a:hover {
+    color: white;
+}
+
+.center {
+	text-align: center;
+}
+
+.logo {
+	display: inline;
+	text-decoration: none;
+	text-align: left;
+    font-size: 30px;
+    position: relative;
+    color: rgb(133, 196, 207);
+	margin-top: 0px;
+	letter-spacing: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.logo-container {
+    display: inline;
+    vertical-align: middle;
+}
+
+.navbar {
+    list-style: none;
+    float: right;
+    display: inline;
+}
+
+.navbar li {
+    display: inline;
+    padding: 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar li a:hover {
+    color: rgb(53, 98, 109);
+}

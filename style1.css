@@ -2,18 +2,13 @@ body{
     background-image: url(./back.jpg);
 }
 h1{
-    color: ivory;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+	color: blanchedalmond;
+	margin: auto;
 }
-
-.garm-img-container{
-	padding: 10%;
-}
-
-.garm-img{
-	width: 330px;
-	height: 200px;
-	margin: 30px;
-}
+  
 
 .header {
     background-color: #446084;
@@ -71,4 +66,21 @@ a:hover {
 
 .navbar li a:hover {
     color: rgb(53, 98, 109);
+}
+
+
+h2{
+    color: blanchedalmond;
+}
+.one:hover{
+    color: rgb(0, 0, 0);
+
+}
+.one{
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+}
+.sports{
+	margin: 10px;
+	padding-left: 30px;
 }

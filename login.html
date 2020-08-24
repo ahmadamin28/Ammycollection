@@ -5,46 +5,121 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Login</title>
      <style>
-         .button{
-    box-shadow:inset 1px 1px 10px 0px #54a3f7;
-	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
-	background-color:#007dc1;
-	border-radius:3px;
-	border:1px solid #124d77;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:15px;
-	padding:6px 7px;
-	text-decoration:none;
-	text-shadow:0px -1px 0px #154682;
-}
-.myButton:hover {
-	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
-	background-color:#0061a7;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
-}
+         
 body{
     background-image: url(./back.jpg);
 }
 h2{
-    color: ivory;
+    color: black;
 }
 p{
-    color: ivory;
+    color: black;
 }
 label{
-    color: ivory;
+    color: black;
+}
+.form{
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding: 4rem;
+    background-image: url(./blur.jpg) ;
+    width: 70%;
+}
+.header {
+    background-color: #446084;
+    margin-top: 0%;
+    margin-left: 0px;
+    margin-right: 0%;
+    padding: 20px;
+    vertical-align: middle;
+}
+
+div.top {
+    display: inline;
+}
+
+a:hover {
+    color: white;
+}
+
+.center {
+	text-align: center;
+}
+
+.logo {
+	display: inline;
+	text-decoration: none;
+	text-align: left;
+    font-size: 30px;
+    position: relative;
+    color: rgb(133, 196, 207);
+	margin-top: 0px;
+	letter-spacing: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.logo-container {
+    display: inline;
+    vertical-align: middle;
+   
+}
+
+.navbar {
+    list-style: none;
+    float: right;
+    display: inline;
+}
+
+.navbar li {
+    display: inline;
+    padding: 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar li a:hover {
+    color: rgb(53, 98, 109);
+}
+.form{
+    text-align: center;
 }
      </style>
  </head>
  <body>
+    <div class="header">
 
-     <a class="button" href="shopping.html" class="myButton">Menu</a>
+        <div class="top">
+            <div class="logo-container">
+                <a href="./shopping.html" class="logo">AMMY </a>
+                <img src="./shopping-cart.png" alt="logo" width="30px" height="30px">
+            </div>
+
+            <input type="text" placeholder="Search" />
+            <ul class="navbar">
+                <li><a href="shopping.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li> <a href="login.html">Login</a></li>
+                <li> <a href="reg.html">Registeration</a></li>
+
+                <!-- <li> <a href="product.html">Product</a> </li>        -->
+                <li>
+                    <select name="products" id="cars" onchange="location = this.value;">
+                        <option>Products</option>
+                        <option value="garments.html">Garments</option>
+                        <option value="sports.html">Sports</option>
+                        <option value="electronic.html">Electronic</option>
+                    </select>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="center form-back">
+<form class="form">
+     
         <h2>login Form</h2>
         <label>Username</label><br>
          <input type="Username" placeholder="username" name="username" required><br> 
@@ -54,5 +129,6 @@ label{
        <button type="submit">Login</button>
        <p>Registration Form</p>
        <a href="reg.html"><button type="Submit">Sign Up</button> </a>
+</form>
  </body>
  </html>

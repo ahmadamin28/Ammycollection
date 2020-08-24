@@ -1,6 +1,68 @@
 body{
-    background-color: rgb(185, 202, 233);
+	margin: 0;
+	background-image: url(./blur.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
+
+.header {
+    background-color: #446084;
+    margin-top: 0%;
+    margin-left: 0px;
+    margin-right: 0%;
+    padding: 20px;
+    vertical-align: middle;
+}
+
+div.top {
+    display: inline;
+}
+
+a:hover {
+    color: white;
+}
+
+.center {
+	text-align: center;
+}
+
+.logo {
+	display: inline;
+	text-decoration: none;
+	text-align: left;
+    font-size: 30px;
+    position: relative;
+    color: rgb(133, 196, 207);
+	margin-top: 0px;
+	letter-spacing: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.logo-container {
+    display: inline;
+    vertical-align: middle;
+}
+
+.navbar {
+    list-style: none;
+    float: right;
+    display: inline;
+}
+
+.navbar li {
+    display: inline;
+    padding: 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar li a:hover {
+    color: rgb(53, 98, 109);
+}
+
 .button{
     box-shadow:inset 1px 1px 10px 0px #54a3f7;
 	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);

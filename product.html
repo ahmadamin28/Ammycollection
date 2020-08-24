@@ -7,7 +7,34 @@
     <link rel="stylesheet" href="style1.css">
 </head>
 <body>
-  <a class="button" href="shopping.html" class="myButton">Menu</a>
+    
+  <div class="header">
+
+    <div class="top">
+        <div class="logo-container">
+            <a href="./shopping.html" class="logo">AMMY </a>
+            <img src="./shopping-cart.png" alt="logo" width="30px" height="30px">
+        </div>
+
+        <input type="text" placeholder="Search" />
+        <ul class="navbar">
+            <li><a href="shopping.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li> <a href="login.html">Login</a></li>
+            <li> <a href="reg.html">Registeration</a></li>
+
+            <!-- <li> <a href="product.html">Product</a> </li>        -->
+            <li>
+                <select name="products" id="cars" onchange="location = this.value;">
+                    <option>Products</option>
+                    <option value="garments.html">Garments</option>
+                    <option value="sports.html">Sports</option>
+                    <option value="electronic.html">Electronic</option>
+                </select>
+            </li>
+        </ul>
+    </div>
+</div>
  
     <h1>Products </h1>
    
